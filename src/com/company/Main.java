@@ -3,10 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        ColorConsole.println("Hello World", "red");
-        ColorConsole.println("Hello World", "cyan");
-        ColorConsole.println("Hello World", "purple");
-        ColorConsole.print("Hello World  ", "green");
-        ColorConsole.print("Hello World", "yellow");
+        ColorConsole.println("Hello World", ColorConsole.Color.RED);
+        ColorConsole.println("Hello World", ColorConsole.Color.CYAN);
+        ColorConsole.println("Hello World", ColorConsole.Color.PURPLE);
+        ColorConsole.print("Hello World  ", ColorConsole.Color.GREEN);
+        ColorConsole.print("Hello World", ColorConsole.Color.YELLOW);
     }
 }
